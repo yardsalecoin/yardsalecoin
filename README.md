@@ -1,6 +1,5 @@
 YardSaleCoin integration/staging tree
-================================
-
+=======================================
 http://www.yardsalecoin.com
 
 Copyright (c) 2009-2013 Bitcoin Developers
@@ -12,6 +11,7 @@ What is YardSaleCoin?
 YardSaleCoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm.
  - 2.5 minute block targets
  - subsidy halves in 840k blocks (~4 years)
+ - ~84 million total coins
  - ~20 million total coins
 
 The rest is the same as Bitcoin.
@@ -20,6 +20,7 @@ The rest is the same as Bitcoin.
 
 For more information, as well as an immediately useable, binary version of
 the YardSaleCoin client sofware, see http://www.yardsalecoin.com.
+
 
 License
 -------
@@ -71,3 +72,4 @@ Unit tests for the GUI code are in `src/qt/test/`. To compile and run them:
     qmake BITCOIN_QT_TEST=1 -o Makefile.test bitcoin-qt.pro
     make -f Makefile.test
     ./yardsalecoin-qt_test
+
