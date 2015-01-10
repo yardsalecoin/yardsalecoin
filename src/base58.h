@@ -272,7 +272,7 @@ class CBitcoinAddress : public CBase58Data
 public:
     enum
     {
-        PUBKEY_ADDRESS = 255, // YardSaleCoin addresses start with L
+        PUBKEY_ADDRESS = 255, // YardSaleCoin addresses start with L <-- Note this in FAQ, Webwallet, Paper Wallet, Etc.
         SCRIPT_ADDRESS = 253,
         PUBKEY_ADDRESS_TEST = 254,
         SCRIPT_ADDRESS_TEST = 252,
